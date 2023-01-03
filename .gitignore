@@ -1,0 +1,5 @@
+#ignore __pycache__ and .pyc files
+__pycache__
+*.pyc
+*.png
+err.txt

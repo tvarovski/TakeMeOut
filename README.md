@@ -14,6 +14,7 @@ You need to have the following installed:
 - `seaborn`
 - `calplot`
 
+# How To Use
 
 1. Download google location data from [here](https://takeout.google.com/settings/takeout?pli=1).
 2. Set the config.py directory to the path of your unzipped download.

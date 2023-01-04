@@ -18,7 +18,7 @@ You can install them with:
 pip install -r requirements.txt
 ```
 
-# How To Use
+## Usage
 
 1. Download google location data from [here](https://takeout.google.com/settings/takeout?pli=1).
 2. Change settings in the the `code_package/config.py` directory:

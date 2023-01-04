@@ -1,5 +1,5 @@
-import code.config as cfg
-import code.takeMeOut as tmo
+import code_package.config as cfg
+import code_package.takeMeOut as tmo
 
 if __name__ == "__main__":
 

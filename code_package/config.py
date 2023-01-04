@@ -4,6 +4,6 @@ settings = {
     "LOCATION": "custom-location", # if custom-custom-location, then use LATITUDE and LONGITUDE
     "LONGITUDE": -91.53328068501925,
     "LATITUDE": 41.66196873713731,
-    "RADIUS": 0.002, #=> 80m,
+    "RADIUS": 0.002, #0.002 => ~80m
     "ACTIVITY": "WALKING"
 }

@@ -6,7 +6,6 @@ import seaborn as sns
 from datetime import datetime
 import iso8601
 import calplot
-import os
 import sys
 
 

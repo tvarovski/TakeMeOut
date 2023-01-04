@@ -2,7 +2,7 @@
 
 Use your geolocation data from Google Checkout to track your habits.
 
-![example_calendar_figure](https://raw.githubusercontent.com/tvarovski/TakeMeOut/main/custom-location_2022_calendar.png)
+![example_calendar_figure](outputs/example.png)
 
 # Dependencies
 

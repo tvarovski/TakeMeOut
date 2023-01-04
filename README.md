@@ -1,6 +1,6 @@
 # TakeMeOut
 
-Use your geolocation data from Google Checkout to track your habits.
+Explore your Google Checkout geolocation data with this Python package.
 
 ![example_calendar_figure](outputs/example.png)
 

@@ -9,11 +9,9 @@ import calplot
 import os
 import sys
 
-#get the path of the current file, it's used to get the directory for the output files
-path = os.path.dirname(os.path.realpath(__file__))
 
-#redirect the stderr to a file
-sys.stderr = open(f'{path}/err.txt', 'w')
+#redirect the stderr to a file in the outputs directory
+sys.stderr = open(f'outputs/err.txt', 'w')
 
 def get_date_object(date_string):
   #converts the date string to a datetime object
@@ -199,7 +197,7 @@ def plotDays(data_out, query_loc, YEAR, MONTH):
 
   #save the plot as a png file to the directory where the script is located
   
-  plt.savefig(f"{path}/{query_loc}_{YEAR}_{MONTH}.png", dpi=200)
+  plt.savefig(f"outputs/{query_loc}_{YEAR}_{MONTH}.png", dpi=300)
 
 
 def plotCalendarHeatmap(df, query_loc, YEAR):
@@ -254,8 +252,9 @@ def plotCalendarHeatmap(df, query_loc, YEAR):
   df = df.set_index('Date')
 
   calplot.calplot(data = df['Duration_hrs'], textformat='{:.0f}', how = 'sum', cmap = 'magma_r', figsize = (16, 4), vmax = 16, vmin = 0, linewidth=1, edgecolor='black', textcolor='whitesmoke')
+  
   #save the plot as a png file to the directory where the script is located
-  plt.savefig(f"{path}/{query_loc}_{YEAR}_calendar.png", dpi=400)
+  plt.savefig(f"outputs/{query_loc}_{YEAR}_calendar.png", dpi=400)
 
 def runAnalysis(DIR, YEAR, location, LATITUDE, LONGITUDE, RADIUS, ACTIVITY):
   #function that runs the analysis for a given location

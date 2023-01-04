@@ -1,5 +1,5 @@
 settings = {
-    "DIR": r"C:\Users\usr\Downloads\takeout-20230103T035311Z-001", # e.g. r"C:\Users\usr\Downloads\takeout-20230103T035311Z-001"
+    "DIR": r"C:\Users\twaro\My Drive\takeout\takeout-20230103T035359Z-001_tvaro", # e.g. r"C:\Users\usr\Downloads\takeout-20230103T035311Z-001"
     "YEAR": 2020,
     "LOCATION": "custom-location", # if custom-custom-location, then use LATITUDE and LONGITUDE
     "LONGITUDE": -91.53328068501925,

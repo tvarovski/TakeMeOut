@@ -1,0 +1,5 @@
+calplot==0.1.7.5
+iso8601==1.1.0
+matplotlib==3.5.2
+pandas==1.4.2
+seaborn==0.11.2
